@@ -1,0 +1,78 @@
+<style>
+h1 {
+    margin: 1em 0 0 0;
+    color: #2e484c;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 1.8em;
+    text-transform: uppercase;
+}
+a:link {
+    font-weight: bold;
+    text-decoration: none;
+    color: #0d8ba1;
+}
+a:visited {
+    font-weight: bold;
+    text-decoration: none;
+    color: #1a5952;
+}
+a:hover, a:focus, a:active {
+    text-decoration: underline;
+    color: #9685BA;
+}
+p {
+    font: "Libre Baskerville", sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
+    width: 95%;
+    max-width: 1200;
+}
+
+</style>
+
+<p><b>2D Descriptors:</b><br>
+- Aggregator Advisor: highest tanimoto coefficient to known protein aggregation-inducing compound (<a href="url">http://advisor.bkslab.org/index.php/faq</a>).<br>
+- BalabanJ: distance-based topological index (uses distances sums for vertices); Chem. Phys. Lett. 89:399-404 (1982).<br>
+- BertzCT: complexity index, taking into account both the variety of kinds of bond connectivities and atom types; J. Am. Chem. Soc. 103:3599-601 (1981).<br>
+- Ipc: information for graph polynomial coefficients-based information theory; J. Chem. Phys. 67:4517-33 (1977).<br>
+- HallKierAlpha: alpha modified kappa shape index; (<a href="url">https://www.chemcomp.com/journal/descr.htm#KH</a>); Rev. Comput. Chem. 2:367-422 (1991).<br>
+- Kappa1 - Kappa3: kappa shape indices; (<a href="url">https://www.chemcomp.com/journal/descr.htm#KH</a>); Rev. Comput. Chem. 2:367-422 (1991).<br>
+- Chi0, Chi1, Chi0n - Chi4n, Chi0v - Chi4v: connectivity indices; (<a href="url">https://www.chemcomp.com/journal/descr.htm#KH</a>); Rev. Comput. Chem. 2:367-422 (1991).<br>
+- MolLogP: log of the Octanol:Water partition coefficient; Wildman and Crippen JCICS 39:868-73 (1999).<br>
+- MolMR: Molecular Refractivity; Wildman and Crippen JCICS 39:868-73 (1999).<br>
+- NumSpiroAtoms: number of atoms shared between rings that share exactly one atom.<br>
+- NumBridgeheadAtoms: number of atoms shared between rings that share at least two bonds.<br>
+- TPSA: topological polar surface area;	J. Med. Chem. 43:3714-7, (2000).<br>
+- LabuteASA: Labute's Approximate Surface Area; J. Mol. Graph. Mod. 18:464-77 (2000).<br>
+- PEOE_VSA1 - PEOE_VSA14: MOE-type descriptors using partial charges and surface area contributions; <a href="url">http://www.chemcomp.com/journal/vsadesc.htm</a><br>
+- SMR_VSA1 - SMR_VSA10: MOE-type descriptors using MR contributions and surface area contributions; <a href="url">http://www.chemcomp.com/journal/vsadesc.htm</a><br>
+- SlogP_VSA1 - SlogP_VSA12: MOE-type descriptors using LogP contributions and surface area contributions; <a href="url">http://www.chemcomp.com/journal/vsadesc.htm</a><br>
+- EState_VSA1 - EState_VSA11; VSA_EState1 - VSA_EState10: MOE-type descriptors using EState indices and surface area contributions (unpublished, developed by RD)<br>
+</p>
+<p><b>3D Descriptors:</b><br>
+- PBF: Plane of best fit; Nicholas C. Firth, Nathan Brown, and Julian Blagg, JCIM 52:2516-25.<br>
+- PMI1 - PMI3: Principle moments of inertia.<br>
+- NPR1 - NPR2: Normalized principle moments ratios; Sauer and Schwarz JCIM 43:987-1003 (2003)<br>
+- RadiusOfGyration: G. A. Arteca “Molecular Shape Descriptors” Reviews in Computational Chemistry vol 9; <a href="url">http://dx.doi.org/10.1002/9780470125861.ch5</a><br>
+- InertialShapeFactor: Todeschini and Consoni “Descriptors from Molecular Geometry” Handbook of Chemoinformatics; <a href="url">http://dx.doi.org/10.1002/9783527618279.ch37</a><br>
+- Eccentricity: G. A. Arteca “Molecular Shape Descriptors” Reviews in Computational Chemistry vol 9; <a href="url">http://dx.doi.org/10.1002/9780470125861.ch5</a><br>
+- Asphericity: A. Baumgaertner, “Shapes of flexible vesicles” J. Chem. Phys. 98:7496 (1993); <a href="url">http://dx.doi.org/10.1063/1.464689</a><br>
+- Spherocity Index: Todeschini and Consoni “Descriptors from Molecular Geometry” Handbook of Chemoinformatics; <a href="url">http://dx.doi.org/10.1002/9783527618279.ch37	</a><br>
+</p>
+<p><b>Vector Representations used for Principle Component Analysis (PCA):</b><br>
+- Autocorr2D: Todeschini and Consoni “Descriptors from Molecular Geometry” Handbook of Chemoinformatics; <a href="url">http://dx.doi.org/10.1002/9783527618279.ch37</a><br>
+- Autocorr3D: Todeschini and Consoni “Descriptors from Molecular Geometry” Handbook of Chemoinformatics; <a href="url">http://dx.doi.org/10.1002/9783527618279.ch37	</a><br>
+- RDF: Todeschini and Consoni “Descriptors from Molecular Geometry” Handbook of Chemoinformatics; <a href="url">http://dx.doi.org/10.1002/9783527618279.ch37</a><br>
+- MORSE: Todeschini and Consoni “Descriptors from Molecular Geometry” Handbook of Chemoinformatics; <a href="url">http://dx.doi.org/10.1002/9783527618279.ch37</a><br>
+- WHIM: Todeschini and Consoni “Descriptors from Molecular Geometry” Handbook of Chemoinformatics; <a href="url">http://dx.doi.org/10.1002/9783527618279.ch37</a><br>
+- GETAWAY: Todeschini and Consoni “Descriptors from Molecular Geometry” Handbook of Chemoinformatics; <a href="url">http://dx.doi.org/10.1002/9783527618279.ch37</a><br>
+- RDKit Fingerprint: a Daylight-like fingerprint based on hashing molecular subgraphs.<br>
+- Atom Pairs Fingerprint: JCICS 25:64-73 (1985)<br>
+- Topological Torsions Fingerprint: JCICS 27:82-5 (1987)<br>
+- MACCS Keys Fingerprint: Using the 166 public keys implemented as SMARTS<br>
+- Pattern Fingerprint: a topological fingerprint optimized for substructure screening<br>
+- Layered Fingerprint: an alternate subgraph-hashing scheme (same algorithm as RDKit fingerprint)<br>
+- Mol2VecFeatures: an unsupervised machine learning approach to learn vector representations of molecular substructures; <a href="url">https://github.com/samoturk/mol2vec</a><br>
+* Find more information on molecular fingerprints at: <a href="url">http://rdkit.org/UGM/2012/Landrum_RDKit_UGM.Fingerprints.Final.pptx.pdf</a><br>
+and 3D descriptors at: <a href="url">https://www.researchgate.net/profile/Dong-Sheng_Cao/publication/235919348_manual_for_chemopy/links/0912f5142d38a4eeb9000000/manual-for-chemopy.pdf</a>
+</p>
